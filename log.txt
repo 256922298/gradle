@@ -1,0 +1,329 @@
+10-15 19:34:33.144 7925-7925/com.google.android.stardroid I/art: Late-enabling -Xcheck:jni
+10-15 19:34:33.145 7925-7925/com.google.android.stardroid D/houdini: [7925] Initialize library(version: 5.2.2b_z.47801 RELEASE)... successfully.
+10-15 19:34:33.172 7925-7934/com.google.android.stardroid I/art: Debugger is no longer active
+10-15 19:34:33.214 7925-7925/com.google.android.stardroid I/InstantRun: Instant Run Runtime started. Android package is com.google.android.stardroid, real application class is com.google.android.stardroid.StardroidApplication.
+10-15 19:34:41.178 7925-7925/com.google.android.stardroid I/GMPM: App measurement is starting up, version: 8487
+10-15 19:34:41.179 7925-7925/com.google.android.stardroid I/GMPM: To enable debug logging run: adb shell setprop log.tag.GMPM VERBOSE
+10-15 19:34:41.261 7925-7925/com.google.android.stardroid D/Stardroid.StardroidApplication: StardroidApplication: onCreate
+10-15 19:34:41.262 7925-8198/com.google.android.stardroid W/GooglePlayServicesUtil: Google Play services is missing.
+10-15 19:34:41.280 7925-7925/com.google.android.stardroid D/Stardroid.ApplicationModule: Creating application module for com.google.android.stardroid.StardroidApplication@13bffc57
+10-15 19:34:41.290 7925-7925/com.google.android.stardroid D/Stardroid.ApplicationModule: Providing shared preferences
+10-15 19:34:41.306 7925-7925/com.google.android.stardroid I/Stardroid.ApplicationModule: Initializing LayerManager
+10-15 19:34:41.308 7925-7925/com.google.android.stardroid D/Stardroid.LayerManager: Creating LayerManager
+10-15 19:34:41.332 7925-8201/com.google.android.stardroid D/Stardroid.AbstractFileBasedLayer: Loading Proto File: stars.binary...
+10-15 19:34:41.353 7925-7925/com.google.android.stardroid D/Stardroid.Planet: Lunar phase = 169.90271
+10-15 19:34:41.355 7925-7925/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: PlanetsLayer
+10-15 19:34:41.366 7925-7925/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: MeteorShowerLayer
+10-15 19:34:41.372 7925-7925/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: GridLayer
+10-15 19:34:41.374 7925-7925/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: HorizonLayer
+10-15 19:34:41.374 7925-7925/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: EclipticLayer
+10-15 19:34:41.384 7925-7925/com.google.android.stardroid I/GAv4: Google Analytics 8.4.87 is starting up. To enable debug logging on a device run:
+                                                                    adb shell setprop log.tag.GAv4 DEBUG
+                                                                    adb logcat -s GAv4
+10-15 19:34:41.402 7925-7925/com.google.android.stardroid W/GAv4: AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+10-15 19:34:41.408 7925-7925/com.google.android.stardroid W/GAv4: CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+10-15 19:34:41.416 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: OS Version: 5.1(22)
+10-15 19:34:41.416 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sky Map version 1.9.2 build 1480
+10-15 19:34:41.423 7925-8203/com.google.android.stardroid W/GAv4: AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+10-15 19:34:41.439 7925-7925/com.google.android.stardroid W/Resources: Converting to string: TypedValue{t=0x10/d=0x0 a=-1}
+10-15 19:34:41.440 7925-7925/com.google.android.stardroid W/Resources: Converting to string: TypedValue{t=0x10/d=0x0 a=-1}
+10-15 19:34:41.445 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Setting custom variable ANDROID_OS to 22
+10-15 19:34:41.447 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Setting custom variable SKYMAP_VERSION to 1.9.2
+10-15 19:34:41.447 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Setting custom variable DEVICE_NAME to MI PAD 2
+10-15 19:34:41.447 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Enabling stats collection
+10-15 19:34:41.477 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Setting custom variable NEW_USER to true
+10-15 19:34:41.477 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging page /ApplicationCreate
+10-15 19:34:41.478 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=743097172,cd1=22,an=星空地图,t=screenview,cd=/ApplicationCreate,cd2=1.9.2,tid=,cd3=MI PAD 2,cd4=true,aid=com.google.android.stardroid,av=1.9.2
+10-15 19:34:41.483 7925-7925/com.google.android.stardroid D/Stardroid.StardroidApplication: New installation: version 1.9.2
+10-15 19:34:41.484 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Installed Version: 1.9.2 (Installation) label Prevous Version: Clean install value 1
+10-15 19:34:41.484 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Installation,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Installed Version: 1.9.2,cd4=true,aid=com.google.android.stardroid,el=Prevous Version: Clean install
+10-15 19:34:41.484 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Start up hour (General) label 19h value 0
+10-15 19:34:41.484 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=General,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Start up hour,cd4=true,aid=com.google.android.stardroid,el=19h
+10-15 19:34:41.524 7925-8201/com.google.android.stardroid D/Stardroid.AbstractFileBasedLayer: Found: 3186 sources
+10-15 19:34:41.525 7925-8201/com.google.android.stardroid D/Brent: Stardroid.NewStarsLayer: Finished Loading: stars.binary | Found 3186 sourcs.
+10-15 19:34:41.525 7925-8201/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: NewStarsLayer
+10-15 19:34:41.587 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Minimal sensors available
+10-15 19:34:41.587 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Minimal Sensor Availability (Sensors) label Minimal Sensors: Yes value 1
+10-15 19:34:41.587 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Minimal Sensor Availability,cd4=true,aid=com.google.android.stardroid,el=Minimal Sensors: Yes
+10-15 19:34:41.612 7925-8201/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: NewStarsLayer
+10-15 19:34:41.612 7925-8201/com.google.android.stardroid D/Stardroid.AbstractFileBasedLayer: Loading Proto File: messier.binary...
+10-15 19:34:41.620 7925-8201/com.google.android.stardroid D/Stardroid.AbstractFileBasedLayer: Found: 114 sources
+10-15 19:34:41.620 7925-8201/com.google.android.stardroid D/Brent: Stardroid.NewMessierLayer: Finished Loading: messier.binary | Found 114 sourcs.
+10-15 19:34:41.620 7925-8201/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: NewMessierLayer
+10-15 19:34:41.632 7925-8201/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: NewMessierLayer
+10-15 19:34:41.632 7925-8201/com.google.android.stardroid D/Stardroid.AbstractFileBasedLayer: Loading Proto File: constellations.binary...
+10-15 19:34:41.653 7925-8201/com.google.android.stardroid D/Stardroid.AbstractFileBasedLayer: Found: 95 sources
+10-15 19:34:41.653 7925-8201/com.google.android.stardroid D/Brent: Stardroid.NewConstellationsLayer: Finished Loading: constellations.binary | Found 95 sourcs.
+10-15 19:34:41.653 7925-8201/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: NewConstellationsLayer
+10-15 19:34:41.667 7925-8201/com.google.android.stardroid W/Stardroid.AbstractLayer: Renderer not set - aborting: NewConstellationsLayer
+10-15 19:34:41.836 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Rotation Sensor Availability (Sensors) label OK - All Sensors value 1
+10-15 19:34:41.837 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Rotation Sensor Availability,cd4=true,aid=com.google.android.stardroid,el=OK - All Sensors
+10-15 19:34:41.892 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: No sensor of type 1
+10-15 19:34:41.892 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Type - 1 (Sensors) label Sensor Absent value 0
+10-15 19:34:41.893 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Type - 1,cd4=true,aid=com.google.android.stardroid,el=Sensor Absent
+10-15 19:34:41.938 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: No sensor of type 4
+10-15 19:34:41.938 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Type - 4 (Sensors) label Sensor Absent value 0
+10-15 19:34:41.938 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Type - 4,cd4=true,aid=com.google.android.stardroid,el=Sensor Absent
+10-15 19:34:41.980 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: No sensor of type 2
+10-15 19:34:41.980 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Type - 2 (Sensors) label Sensor Absent value 0
+10-15 19:34:41.980 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Type - 2,cd4=true,aid=com.google.android.stardroid,el=Sensor Absent
+10-15 19:34:42.018 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: No sensor of type 5
+10-15 19:34:42.018 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Type - 5 (Sensors) label Sensor Absent value 0
+10-15 19:34:42.018 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Type - 5,cd4=true,aid=com.google.android.stardroid,el=Sensor Absent
+10-15 19:34:42.081 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: No sensor of type 11
+10-15 19:34:42.081 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Type - 11 (Sensors) label Sensor Absent value 0
+10-15 19:34:42.081 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Type - 11,cd4=true,aid=com.google.android.stardroid,el=Sensor Absent
+10-15 19:34:42.172 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: No sensor of type 3
+10-15 19:34:42.172 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Type - 3 (Sensors) label Sensor Absent value 0
+10-15 19:34:42.172 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=0,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Type - 3,cd4=true,aid=com.google.android.stardroid,el=Sensor Absent
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid D/Stardroid.StardroidApplication: All sensors:
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Lift sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Pan Zoom sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Step counter sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Game rotation vector sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Gesture flick sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Instant Activity sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Terminal sensor
+10-15 19:34:42.173 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Tilt Detector sensor (wakeup)
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Significant motion sensor (wakeup)
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Tap sensor (wakeup)
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Light sensor
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Uncalibrated Accelerometer sensor
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Accelerometer sensor
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Magnetometer sensor
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Calibrated Accelerometer Sensor
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Gyroscope sensor
+10-15 19:34:42.174 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Compass Sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Move detector sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Gravity sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Orientation sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Linear Acceleration sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Rotation vector sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Pick up gesture sensor (wakeup)
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Shake sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Step detector sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Uncalibrated Gyroscope sensor
+10-15 19:34:42.175 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Uncalibrated Magnetometer sensor
+10-15 19:34:42.176 7925-7925/com.google.android.stardroid D/Stardroid.StardroidApplication: All sensors summary:
+10-15 19:34:42.176 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.gyroscope: 4
+10-15 19:34:42.176 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.gyroscope: 4 value 1
+10-15 19:34:42.176 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.gyroscope: 4
+10-15 19:34:42.177 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.step_counter: 19
+10-15 19:34:42.177 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.step_counter: 19 value 1
+10-15 19:34:42.177 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.step_counter: 19
+10-15 19:34:42.178 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.linear_acceleration: 10
+10-15 19:34:42.178 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.linear_acceleration: 10 value 1
+10-15 19:34:42.178 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.linear_acceleration: 10
+10-15 19:34:42.179 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.simple_tapping: 65544
+10-15 19:34:42.179 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.simple_tapping: 65544 value 1
+10-15 19:34:42.179 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.simple_tapping: 65544
+10-15 19:34:42.180 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.step_detector: 18
+10-15 19:34:42.180 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.step_detector: 18 value 1
+10-15 19:34:42.180 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.step_detector: 18
+10-15 19:34:42.180 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.accelerometer_uncalibrated: 65551
+10-15 19:34:42.180 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.accelerometer_uncalibrated: 65551 value 1
+10-15 19:34:42.182 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.accelerometer_uncalibrated: 65551
+10-15 19:34:42.182 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.pan_zoom: 65550
+10-15 19:34:42.183 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.pan_zoom: 65550 value 1
+10-15 19:34:42.183 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.pan_zoom: 65550
+10-15 19:34:42.185 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.orientation: 3
+10-15 19:34:42.185 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.orientation: 3 value 1
+10-15 19:34:42.185 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.orientation: 3
+10-15 19:34:42.186 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.OEM0: 65636
+10-15 19:34:42.186 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.OEM0: 65636 value 1
+10-15 19:34:42.186 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.OEM0: 65636
+10-15 19:34:42.186 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.rotation_vector: 11
+10-15 19:34:42.186 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.rotation_vector: 11 value 1
+10-15 19:34:42.187 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.rotation_vector: 11
+10-15 19:34:42.187 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.gravity: 9
+10-15 19:34:42.187 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.gravity: 9 value 1
+10-15 19:34:42.188 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.gravity: 9
+10-15 19:34:42.188 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.game_rotation_vector: 15
+10-15 19:34:42.188 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.game_rotation_vector: 15 value 1
+10-15 19:34:42.189 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.game_rotation_vector: 15
+10-15 19:34:42.190 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.light: 5
+10-15 19:34:42.190 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.light: 5 value 1
+10-15 19:34:42.191 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.light: 5
+10-15 19:34:42.191 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.pick_up: 65555
+10-15 19:34:42.192 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.pick_up: 65555 value 1
+10-15 19:34:42.192 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.pick_up: 65555
+10-15 19:34:42.193 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.lift: 65549
+10-15 19:34:42.193 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.lift: 65549 value 1
+10-15 19:34:42.193 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.lift: 65549
+10-15 19:34:42.193 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.magnetic_field_uncalibrated: 14
+10-15 19:34:42.193 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.magnetic_field_uncalibrated: 14 value 1
+10-15 19:34:42.194 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.magnetic_field_uncalibrated: 14
+10-15 19:34:42.194 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.gyroscope_uncalibrated: 16
+10-15 19:34:42.194 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.gyroscope_uncalibrated: 16 value 1
+10-15 19:34:42.194 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.gyroscope_uncalibrated: 16
+10-15 19:34:42.194 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.move_detect: 65545
+10-15 19:34:42.195 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.move_detect: 65545 value 1
+10-15 19:34:42.195 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.move_detect: 65545
+10-15 19:34:42.195 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.gesture_flick: 65537
+10-15 19:34:42.195 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.gesture_flick: 65537 value 1
+10-15 19:34:42.196 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.gesture_flick: 65537
+10-15 19:34:42.196 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.shake: 65543
+10-15 19:34:42.196 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.shake: 65543 value 1
+10-15 19:34:42.196 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.shake: 65543
+10-15 19:34:42.197 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.magnetic_field: 2
+10-15 19:34:42.197 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.magnetic_field: 2 value 1
+10-15 19:34:42.197 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.magnetic_field: 2
+10-15 19:34:42.197 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.instant_activity: 65539
+10-15 19:34:42.198 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.instant_activity: 65539 value 1
+10-15 19:34:42.198 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.instant_activity: 65539
+10-15 19:34:42.198 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: intel.sensor.terminal: 65540
+10-15 19:34:42.199 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: intel.sensor.terminal: 65540 value 1
+10-15 19:34:42.199 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: intel.sensor.terminal: 65540
+10-15 19:34:42.199 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.accelerometer: 1
+10-15 19:34:42.200 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.accelerometer: 1 value 1
+10-15 19:34:42.201 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.accelerometer: 1
+10-15 19:34:42.201 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.OEM1: 65637
+10-15 19:34:42.201 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.OEM1: 65637 value 1
+10-15 19:34:42.202 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.OEM1: 65637
+10-15 19:34:42.202 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.tilt_detector: 22
+10-15 19:34:42.202 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.tilt_detector: 22 value 1
+10-15 19:34:42.203 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.tilt_detector: 22
+10-15 19:34:42.203 7925-7925/com.google.android.stardroid I/Stardroid.StardroidApplication: Sensor type: android.sensor.significant_motion: 17
+10-15 19:34:42.203 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Sensor Name (Sensors) label Sensor type: android.sensor.significant_motion: 17 value 1
+10-15 19:34:42.204 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: cd=/ApplicationCreate,ec=Sensors,ev=1,cd3=MI PAD 2,av=1.9.2,a=743097172,cd1=22,an=星空地图,t=event,cd2=1.9.2,tid=,ea=Sensor Name,cd4=true,aid=com.google.android.stardroid,el=Sensor type: android.sensor.significant_motion: 17
+10-15 19:34:42.204 7925-7925/com.google.android.stardroid D/Stardroid.StardroidApplication: StardroidApplication: -onCreate
+10-15 19:34:42.232 7925-7925/com.google.android.stardroid D/Stardroid.SplashScreenActivity: onCreate
+10-15 19:34:42.251 7925-7925/com.google.android.stardroid D/libskiaimagehw: turboImageDecoder took 12.92ms to decode 1280x800 (1x downscale by libjpeg-turbo)
+10-15 19:34:42.341 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging page /SplashScreen
+10-15 19:34:42.341 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=1187779247,an=星空地图,t=screenview,cd=/SplashScreen,aid=com.google.android.stardroid,av=1.9.2,tid=
+10-15 19:34:42.384 7925-8205/com.google.android.stardroid D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+10-15 19:34:42.391 7925-7925/com.google.android.stardroid I/ufoGralloc: Hello, this is UFO GRALLOC/Intel Corporation
+10-15 19:34:42.392 7925-7925/com.google.android.stardroid D/Atlas: Validating map...
+10-15 19:34:42.401 7925-7925/com.google.android.stardroid D/ActivityThreadInjector: clearCachedDrawables.
+10-15 19:34:42.544 7925-8205/com.google.android.stardroid D/ufoEGL: ENV OGL (64bit) enabled for all processes, use "setptop persist.intel.ogl.procname" to limit it to a single process
+10-15 19:34:42.550 7925-8205/com.google.android.stardroid I/OpenGLRenderer: Initialized EGL, version 1.4
+10-15 19:34:42.550 7925-8205/com.google.android.stardroid W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+10-15 19:34:42.550 7925-8205/com.google.android.stardroid D/ufoEGL: droid_create_context : config id = 9 conf->NativeVisualID=1
+10-15 19:34:42.550 7925-8205/com.google.android.stardroid I/ufoEGL: Requested context : GLES 2.0
+10-15 19:34:42.550 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:42.556 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:42.557 7925-8205/com.google.android.stardroid D/OpenGLRenderer: Enabling debug mode 0
+10-15 19:34:42.558 7925-8205/com.google.android.stardroid D/skuwa: Detected device 22B0:32 family 17:11
+10-15 19:34:42.560 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:42.578 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:44.585 7925-7925/com.google.android.stardroid D/Stardroid.EulaDialogFragment: TOS Dialog closed.  User accepts.
+10-15 19:34:44.586 7925-8205/com.google.android.stardroid D/ufoEGL: Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+10-15 19:34:44.604 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Terms Of Service (Application) label TOS Accepted value 1
+10-15 19:34:44.604 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=1930476075,an=星空地图,t=event,ec=Application,tid=,ev=1,ea=Terms Of Service,aid=com.google.android.stardroid,el=TOS Accepted,av=1.9.2
+10-15 19:34:44.616 7925-7925/com.google.android.stardroid D/Stardroid.PreferenceChangeAnalyticsTracker: Logging pref change read_tos_version
+10-15 19:34:44.617 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Preference toggled (User Action) label Preference:read_tos_version value 1
+10-15 19:34:44.617 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=1493493354,an=星空地图,t=event,ec=User Action,tid=,ev=1,ea=Preference toggled,aid=com.google.android.stardroid,el=Preference:read_tos_version,av=1.9.2
+10-15 19:34:44.618 7925-7925/com.google.android.stardroid D/Stardroid.SplashScreenActivity: SplashScreen.Animcation onAnimationStart
+10-15 19:34:47.623 7925-7925/com.google.android.stardroid D/Stardroid.SplashScreenActivity: onAnimationEnd
+10-15 19:34:47.724 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:49.987 7925-7925/com.google.android.stardroid D/Stardroid.PreferenceChangeAnalyticsTracker: Logging pref change read_whats_new_version
+10-15 19:34:49.987 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Preference toggled (User Action) label Preference:read_whats_new_version value 1480
+10-15 19:34:49.987 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=1493493354,an=星空地图,t=event,ec=User Action,tid=,ev=1480,ea=Preference toggled,aid=com.google.android.stardroid,el=Preference:read_whats_new_version,av=1.9.2
+10-15 19:34:49.988 7925-7925/com.google.android.stardroid I/Timeline: Timeline: Activity_launch_request time:796463
+10-15 19:34:50.008 7925-8205/com.google.android.stardroid D/ufoEGL: Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+10-15 19:34:50.017 7925-7925/com.google.android.stardroid D/Stardroid.SplashScreenActivity: onPause
+10-15 19:34:50.051 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: onCreate at 1476531290051
+10-15 19:34:50.065 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapModule: Creating activity module for com.google.android.stardroid.activities.DynamicStarMapActivity@b338201
+10-15 19:34:50.101 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Got location Manager
+10-15 19:34:50.107 7925-7925/com.google.android.stardroid D/Stardroid.AbstractController: Disabling controller com.google.android.stardroid.control.ManualOrientationController@450d8a6
+10-15 19:34:50.107 7925-7925/com.google.android.stardroid D/Stardroid.AbstractController: Enabling controller com.google.android.stardroid.control.SensorOrientationController@ed302e7
+10-15 19:34:50.125 7925-7925/com.google.android.stardroid D/Stardroid.SensorAccuracyMonitor: Creating new accuracy monitor
+10-15 19:34:50.127 7925-7925/com.google.android.stardroid D/Stardroid.GooglePlayServicesChecker: Google Play Services check
+10-15 19:34:50.128 7925-7925/com.google.android.stardroid W/GooglePlayServicesUtil: Google Play services is missing.
+10-15 19:34:50.130 7925-7925/com.google.android.stardroid D/Stardroid.GooglePlayServicesChecker: Google Play Status availability: 1
+10-15 19:34:50.130 7925-7925/com.google.android.stardroid D/Stardroid.GooglePlayServicesChecker: ...but we can fix it
+10-15 19:34:50.153 7925-7925/com.google.android.stardroid D/Stardroid.GooglePlayServicesChecker: Location permission is granted
+10-15 19:34:50.153 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Initializing Model, View and Controller @ 1476531290153
+10-15 19:34:50.197 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.0
+10-15 19:34:50.197 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.0 to true
+10-15 19:34:50.199 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.1
+10-15 19:34:50.199 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.1 to true
+10-15 19:34:50.201 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.2
+10-15 19:34:50.201 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.2 to true
+10-15 19:34:50.203 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.3
+10-15 19:34:50.204 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.3 to true
+10-15 19:34:50.205 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.6
+10-15 19:34:50.206 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.6 to true
+10-15 19:34:50.207 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.4
+10-15 19:34:50.207 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.4 to true
+10-15 19:34:50.209 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is source_provider.5
+10-15 19:34:50.209 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference source_provider.5 to true
+10-15 19:34:50.212 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Preference key is auto_mode
+10-15 19:34:50.212 7925-7925/com.google.android.stardroid D/Stardroid.PreferencesButton: Setting initial value of preference auto_mode to true
+10-15 19:34:50.232 7925-7925/com.google.android.stardroid D/SkyBox: Vertices: 80
+10-15 19:34:50.232 7925-7925/com.google.android.stardroid D/SkyBox: Indices: 420
+10-15 19:34:50.237 7925-7925/com.google.android.stardroid D/SkyRenderer: SkyRenderer::SkyRenderer()
+10-15 19:34:50.246 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Setting layers @ 1476531290246
+10-15 19:34:50.273 7925-7925/com.google.android.stardroid D/Stardroid.SkyGradientLayer: Setting showSkyGradient true
+10-15 19:34:50.274 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Set up controllers @ 1476531290274
+10-15 19:34:50.274 7925-7925/com.google.android.stardroid I/Stardroid.ControllerGroup: Setting model
+10-15 19:34:50.281 7925-7925/com.google.android.stardroid I/Stardroid.MapMover: Screen height is 2048 pixels.
+10-15 19:34:50.287 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: Initializing TimePlayer UI.
+10-15 19:34:50.290 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Minimum sensors present
+10-15 19:34:50.291 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: Preferences changed: key=auto_mode
+10-15 19:34:50.291 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: Automode is set to true
+10-15 19:34:50.291 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: Switching to sensor control
+10-15 19:34:50.295 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Pressed Menu Item (User Action) label Toggled Manual Mode value 0
+10-15 19:34:50.295 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=901055703,an=星空地图,t=event,ec=User Action,tid=,ev=0,ea=Pressed Menu Item,aid=com.google.android.stardroid,el=Toggled Manual Mode,av=1.9.2
+10-15 19:34:50.295 7925-7925/com.google.android.stardroid D/Stardroid.AbstractController: Disabling controller com.google.android.stardroid.control.ManualOrientationController@450d8a6
+10-15 19:34:50.295 7925-7925/com.google.android.stardroid D/Stardroid.AbstractController: Enabling controller com.google.android.stardroid.control.SensorOrientationController@ed302e7
+10-15 19:34:50.295 7925-7925/com.google.android.stardroid D/Stardroid.SensorAccuracyMonitor: Starting monitoring compass accuracy
+10-15 19:34:50.330 7925-7925/com.google.android.stardroid D/Stardroid.PreferenceChangeAnalyticsTracker: Logging pref change auto_mode
+10-15 19:34:50.331 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Preference toggled (User Action) label Preference:auto_mode value 1
+10-15 19:34:50.331 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=1493493354,an=星空地图,t=event,ec=User Action,tid=,ev=1,ea=Preference toggled,aid=com.google.android.stardroid,el=Preference:auto_mode,av=1.9.2
+10-15 19:34:50.331 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging event Pressed Menu Item (User Action) label Toggled Manual Mode value 0
+10-15 19:34:50.332 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=901055703,an=星空地图,t=event,ec=User Action,tid=,ev=0,ea=Pressed Menu Item,aid=com.google.android.stardroid,el=Toggled Manual Mode,av=1.9.2
+10-15 19:34:50.332 7925-7925/com.google.android.stardroid D/Stardroid.AbstractController: Disabling controller com.google.android.stardroid.control.ManualOrientationController@450d8a6
+10-15 19:34:50.332 7925-7925/com.google.android.stardroid D/Stardroid.AbstractController: Enabling controller com.google.android.stardroid.control.SensorOrientationController@ed302e7
+10-15 19:34:50.335 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: Intent received: Intent { flg=0x10000000 cmp=com.google.android.stardroid/.activities.DynamicStarMapActivity }
+10-15 19:34:50.335 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: -onCreate at 1476531290335
+10-15 19:34:50.336 7925-7925/com.google.android.stardroid D/Stardroid.Analytics: Logging page /MainPage
+10-15 19:34:50.336 7925-7925/com.google.android.stardroid W/GAv4: Discarding hit. Missing tracking id parameter: a=901055703,an=星空地图,t=screenview,cd=/MainPage,aid=com.google.android.stardroid,av=1.9.2,tid=
+10-15 19:34:50.337 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: onResume at 1476531290337
+10-15 19:34:50.340 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Resuming
+10-15 19:34:50.359 7925-7925/com.google.android.stardroid E/MediaPlayer: Should have subtitle controller already set
+10-15 19:34:50.374 7925-7925/com.google.android.stardroid E/MediaPlayer: Should have subtitle controller already set
+10-15 19:34:50.375 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Starting view
+10-15 19:34:50.375 7925-7925/com.google.android.stardroid I/Stardroid.DynamicStarMapActivity: Starting controller
+10-15 19:34:50.375 7925-7925/com.google.android.stardroid I/Stardroid.ControllerGroup: Starting controllers
+10-15 19:34:50.376 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: LocationController start
+10-15 19:34:50.377 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Got location provider network
+10-15 19:34:50.384 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: LocationController -start
+10-15 19:34:50.385 7925-7925/com.google.android.stardroid D/Stardroid.SensorOrientationController: Using rotation sensor
+10-15 19:34:50.425 7925-7925/com.google.android.stardroid D/Stardroid.SensorOrientationController: Registered sensor listener
+10-15 19:34:50.427 7925-7925/com.google.android.stardroid D/Stardroid.DynamicStarMapActivity: -onResume at 1476531290427
+10-15 19:34:50.431 7925-7925/com.google.android.stardroid D/ActivityThreadInjector: clearCachedDrawables.
+10-15 19:34:50.454 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:50.463 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:50.475 7925-8220/com.google.android.stardroid D/ufoEGL: droid_create_context : config id = 4 conf->NativeVisualID=2
+10-15 19:34:50.475 7925-8220/com.google.android.stardroid I/ufoEGL: Requested context : GLES 1.1
+10-15 19:34:50.475 7925-8220/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBX_8888
+10-15 19:34:50.478 7925-7925/com.google.android.stardroid E/MediaPlayer: Should have subtitle controller already set
+10-15 19:34:50.478 7925-7925/com.google.android.stardroid E/MediaPlayer: Should have subtitle controller already set
+10-15 19:34:50.486 7925-8220/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBX_8888
+10-15 19:34:50.490 7925-8220/com.google.android.stardroid D/SkyRenderer: surfaceCreated
+10-15 19:34:50.490 7925-8220/com.google.android.stardroid I/SkyRenderer: GL extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_lod_bias GL_EXT_map_buffer_range GL_INTEL_performance_query GL_EXT_texture_storage GL_KHR_debug GL_OES_EGL_image GL_OES_framebuffer_object GL_OES_depth24 GL_OES_stencil8 GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_byte_coordinates GL_OES_point_sprite GL_OES_point_size_array GL_OES_blend_subtract GL_OES_blend_func_separate GL_OES_blend_equation_separate GL_OES_single_precision GL_OES_matrix_get GL_OES_read_format GL_OES_mapbuffer GL_EXT_discard_framebuffer GL_EXT_texture_format_BGRA8888 GL_OES_compressed_paletted_texture GL_OES_EGL_image_external GL_OES_compressed_ETC1_RGB8_texture GL_OES_fixed_point GL_OES_draw_texture GL_OES_vertex_array_object GL_OES_texture_cube_map GL_OES_fbo_render_mipmap GL_OES_stencil_wrap GL_OES_element_index_uint GL_OES_texture_npot GL_OES_texture_mirrored_repeat GL_OES_texture_env_crossbar GL_EXT_sRGB GL_APPLE_texture_max_level GL_EXT_texture_compression_dxt1 GL_OES_required_internalformat GL_OES_surfaceless_context GL_OES_EGL_sync GL_EXT_robustness GL_EXT_texture_sRGB_decode GL_EXT_read_format_bgra GL_EXT_debug_marker 
+10-15 19:34:50.490 7925-8220/com.google.android.stardroid I/SkyRenderer: Model: MI PAD 2
+10-15 19:34:50.490 7925-8220/com.google.android.stardroid I/SkyRenderer: VBOs disabled
+10-15 19:34:50.587 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:50.648 7925-8205/com.google.android.stardroid D/ufoEGL: Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+10-15 19:34:50.704 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: LocationController onLocationChanged
+10-15 19:34:50.704 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Latitude 22.658937
+10-15 19:34:50.704 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Longitude 114.061035
+10-15 19:34:50.704 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Informing user of change of location
+10-15 19:34:50.704 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Reverse geocoding location
+10-15 19:34:50.712 7925-8220/com.google.android.stardroid D/SkyRenderer: Starting sizeChanged, size = (1536, 2048)
+10-15 19:34:50.715 7925-8220/com.google.android.stardroid D/SkyRenderer: Changing viewport size
+10-15 19:34:50.715 7925-8220/com.google.android.stardroid D/SkyRenderer: Done with sizeChanged
+10-15 19:34:50.741 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: Location set to 深圳市
+10-15 19:34:50.752 7925-7925/com.google.android.stardroid D/Stardroid.LocationController: LocationController -onLocationChanged
+10-15 19:34:50.769 7925-7925/com.google.android.stardroid D/Stardroid.SplashScreenActivity: onDestroy
+10-15 19:34:52.300 7925-8205/com.google.android.stardroid D/ufoEGL: Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+10-15 19:34:52.341 7925-8205/com.google.android.stardroid D/ufoEGL: Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+10-15 19:34:52.356 7925-8205/com.google.android.stardroid V/RenderScript: Application requested CPU execution
+10-15 19:34:52.362 7925-8205/com.google.android.stardroid V/RenderScript: 0x7fa5a1cef000 Launching thread(s), CPUs 4
+10-15 19:34:52.414 7925-8205/com.google.android.stardroid D/ufoEGL: Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+10-15 19:34:52.434 7925-7925/com.google.android.stardroid W/InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+10-15 19:34:52.670 7925-8198/com.google.android.stardroid I/GMPM: Tag Manager is not found and thus will not be used
+10-15 19:34:55.799 7925-8205/com.google.android.stardroid D/ufoEGL: Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+
